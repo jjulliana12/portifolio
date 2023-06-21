@@ -6,9 +6,36 @@
     text-decoration: none;
 
 }
-.navbar {
+.max-width{
+    max-width: 1300px;
+    padding: o 80px;
+    margin: auto;
+}
+.navbar{
     position: fixed;
     width: 100%;
-    background: #6f59fc	;
+    background-color: #1d55cff3;
     font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar .menu li a{
+    color: #fff;
+
 }
