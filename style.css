@@ -63,7 +63,7 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(image/ba35321e-1555-41f9-9a31-8d16829ec2a8.jpeg) no-repeat;
+    background: url(image/23947812-736f-47eb-b0b6-a42cd48dbab6.jpeg)no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -86,7 +86,7 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color:#1c0080 ;
+    color:#220080 ;
     font-weight: 500;
 }
 /*  Menu  Mobile  */
@@ -237,7 +237,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #4904b9;
+    background: #5b5763;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -247,7 +247,8 @@ section .title::after{
 }
 .services .serv-content .card ion-icon{
     font-size: 70px;
-    color: #10028f;
+    color: #7f78da;
+    ;
 }
 .services .serv-content .card:hover ion-icon{
     color: #fff;

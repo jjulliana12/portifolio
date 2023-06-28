@@ -19,12 +19,13 @@ $(document).ready(function(){
          strings:["Estudante"],
          typeSpeed:100,
          backSpeed:115,
+
          loop:true
      });
      var typed = new Typed(".typing-2", {
         strings:["Estudante"],
         typeSpeed:100,
-        backSpeed:60,
+        backSpeed:115,
         loop:true
     });
 
